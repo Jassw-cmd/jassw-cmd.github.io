@@ -3,9 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- ✏️ EDIT: your name -->
-  <title>Your Name — AI & Machine Learning</title>
-  <meta name="description" content="Personal profile of Your Name, student researcher in machine learning, causal inference and digital twins at VinUniversity." />
+  <title>Nguyễn Đặng Anh Minh — Computer Science · AI & Mathematics</title>
+  <meta name="description" content="Personal profile of Nguyễn Đặng Anh Minh, Computer Science student at VinUniversity interested in mathematics and artificial intelligence." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
@@ -94,6 +93,7 @@
     .card h3 { font-size: 18px; font-weight: 600; margin-bottom: 4px; }
     .card .meta { font-family: var(--mono); font-size: 13px; color: var(--muted); margin-bottom: 10px; }
     .card p { color: var(--muted); font-size: 16px; }
+    .empty { color: var(--muted); font-style: italic; }
 
     .timeline { list-style: none; }
     .timeline li { display: grid; grid-template-columns: 140px 1fr; gap: 20px; padding: 14px 0; border-bottom: 1px dashed var(--line); }
@@ -101,10 +101,6 @@
     .timeline .when { font-family: var(--mono); font-size: 14px; color: var(--muted); padding-top: 2px; }
     .timeline strong { display: block; }
     .timeline span { color: var(--muted); font-size: 16px; }
-
-    .skills { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
-    .skills h3 { font-size: 15px; font-weight: 600; margin-bottom: 6px; }
-    .skills p { color: var(--muted); font-size: 15px; }
 
     .contact-list { list-style: none; display: grid; gap: 10px; }
     .contact-list li { display: flex; gap: 14px; }
@@ -124,11 +120,10 @@
 
   <nav>
     <div class="wrap">
-      <!-- ✏️ EDIT: your name -->
-      <a class="brand" href="#">Your Name</a>
+      <a class="brand" href="#">Nguyễn Đặng Anh Minh</a>
       <ul>
         <li><a href="#about">About</a></li>
-        <li><a href="#research">Research</a></li>
+        <li><a href="#research">Interests</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#education">Education</a></li>
         <li><a href="#contact">Contact</a></li>
@@ -141,63 +136,50 @@
     <!-- ================= HERO ================= -->
     <header class="hero">
       <div>
-        <div class="eyebrow">Student researcher · VinUniversity</div>
-        <!-- ✏️ EDIT: your name -->
-        <h1>Hi, I'm Your Name.</h1>
+        <div class="eyebrow">Computer Science student · VinUniversity</div>
+        <h1>Hi, I'm Anh Minh.</h1>
         <p class="lede">
-          I study engineering and computer science at VinUniversity, working on machine learning,
-          causal inference and digital twins — with a growing interest in AI for health and biology.
+          I am studying for a Bachelor of Science in Computer Science at VinUniversity.
         </p>
         <div class="actions">
-          <a class="btn primary" href="#projects">See my work</a>
-          <!-- ✏️ EDIT: put your CV file (cv.pdf) in the repo, or delete this button -->
-          <a class="btn" href="cv.pdf">Download CV</a>
+          <a class="btn primary" href="#about">About me</a>
           <a class="btn" href="#contact">Get in touch</a>
         </div>
       </div>
-      <!-- ✏️ EDIT: to use a photo, upload photo.jpg to the repo and replace "YN" with:
-           <img src="photo.jpg" alt="Photo of Your Name"> -->
-      <div class="avatar" aria-hidden="true">YN</div>
+      <div class="avatar"><img src="photo.jpg" alt="Photo of Nguyễn Đặng Anh Minh"></div>
     </header>
 
     <!-- ================= ABOUT ================= -->
     <section id="about">
       <h2><span class="num">01</span>About</h2>
       <p>
-        I'm an undergraduate in the College of Engineering and Computer Science at VinUniversity.
-        My work sits where modelling meets reasoning: building fast surrogate models of complex systems,
-        and asking <em>why</em> they behave as they do through causal analysis.
-      </p>
-      <p>
-        Because I work mostly with software rather than specialised hardware, I focus on simulation,
-        prediction and machine learning — methods that scale with ideas rather than equipment.
-        I'm currently preparing to join undergraduate research (UROP) in machine learning and computer vision.
+        I want to learn mathematics and artificial intelligence. I enjoy understanding the ideas
+        behind how machines learn, and I hope to build a strong mathematical foundation so I can use AI
+        to solve real problems, especially in health and biology.
       </p>
       <div class="tags">
         <span class="tag">Machine Learning</span>
-        <span class="tag">Causal Inference</span>
-        <span class="tag">Digital Twins</span>
-        <span class="tag">Computer Vision</span>
-        <span class="tag">RAG / GraphRAG</span>
-        <span class="tag">AI for Health</span>
+        <span class="tag">AI for Health &amp; Bio</span>
+        <span class="tag">AI</span>
+        <span class="tag">Mathematics</span>
       </div>
     </section>
 
-    <!-- ================= RESEARCH ================= -->
+    <!-- ================= INTERESTS ================= -->
     <section id="research">
       <h2><span class="num">02</span>Research interests</h2>
       <div class="cards">
         <div class="card">
-          <h3>Discovery & inference</h3>
-          <p>Causal discovery and causal inference — moving from correlations in data to explanations a person can act on, especially in health science.</p>
+          <h3>Machine learning</h3>
+          <p>How models learn from data, and how to make them accurate and reliable.</p>
         </div>
         <div class="card">
-          <h3>Computer vision</h3>
-          <p>Deep learning for images, with medical imaging as a motivating application.</p>
+          <h3>Mathematics</h3>
+          <p>The mathematical foundations behind artificial intelligence.</p>
         </div>
         <div class="card">
-          <h3>Data & mathematics for AI</h3>
-          <p>The mathematical foundations behind learning systems, and careful analysis of real-world biological and health data.</p>
+          <h3>Health</h3>
+          <p>Applying AI to health and biology to help people.</p>
         </div>
       </div>
     </section>
@@ -205,25 +187,16 @@
     <!-- ================= PROJECTS ================= -->
     <section id="projects">
       <h2><span class="num">03</span>Projects</h2>
+      <p class="empty">Coming soon.</p>
+      <!-- To add a project, put this block in place of the "Coming soon" line:
       <div class="cards">
         <div class="card">
-          <h3>Surrogate modelling & causal analysis for digital twins</h3>
-          <!-- ✏️ EDIT: dates / supervisor / lab -->
-          <div class="meta">2026 · ongoing · research</div>
-          <p>Building surrogate models that approximate expensive simulations, then applying causal analysis to understand what drives system behaviour. Part of a digital twin direction that extends toward <em>cognitive twins</em>.</p>
+          <h3>Project name</h3>
+          <div class="meta">2026 · short label</div>
+          <p>One or two sentences about the project.</p>
         </div>
-        <div class="card">
-          <h3>Improving retrieval-augmented generation with GraphRAG</h3>
-          <div class="meta">2026 · ongoing · research</div>
-          <p>Studying graph-based RAG, starting from Microsoft's “From Local to Global” GraphRAG approach, and exploring how digital twin and physical-AI ideas can improve retrieval and answer quality.</p>
-        </div>
-        <div class="card">
-          <h3>Snap &amp; Stack — a learning camera for kids</h3>
-          <div class="meta">2026 · product concept</div>
-          <p>A children's instant camera that uses computer vision to run topic quests (find a flower → find a rose) and prints magnetic photos that stack into collections. I designed the concept and a software visualisation of the experience.</p>
-        </div>
-        <!-- ✏️ ADD MORE: copy a <div class="card">…</div> block for each new project -->
       </div>
+      -->
     </section>
 
     <!-- ================= EDUCATION ================= -->
@@ -231,65 +204,37 @@
       <h2><span class="num">04</span>Education</h2>
       <ul class="timeline">
         <li>
-          <!-- ✏️ EDIT: your start year and expected graduation -->
-          <div class="when">20XX – present</div>
+          <div class="when">2026 – present</div>
           <div>
-            <strong>VinUniversity — College of Engineering and Computer Science</strong>
-            <!-- ✏️ EDIT: your major -->
-            <span>B.Sc. in Computer Science (your major) · Hanoi, Vietnam</span>
+            <strong>VinUniversity</strong>
+            <span>Bachelor of Science in Computer Science · Hanoi</span>
           </div>
         </li>
         <li>
-          <div class="when">Coursework</div>
+          <div class="when">2023 – 2026</div>
           <div>
-            <strong>Selected courses</strong>
-            <span>Calculus 1 · Introduction to Programming · CNNs and Graph Neural Networks · AI Literacy (media literacy, AI ethics)</span>
+            <strong>Le Quy Don High School for the Gifted</strong>
+            <span>Mathematics major · Da Nang City</span>
           </div>
         </li>
       </ul>
     </section>
 
-    <!-- ================= SKILLS ================= -->
-    <section id="skills">
-      <h2><span class="num">05</span>Skills</h2>
-      <div class="skills">
-        <div>
-          <h3>Programming</h3>
-          <!-- ✏️ EDIT -->
-          <p>Python, NumPy, pandas, PyTorch, Git</p>
-        </div>
-        <div>
-          <h3>Machine learning</h3>
-          <p>Neural networks, CNNs, GNNs, surrogate models, RAG pipelines</p>
-        </div>
-        <div>
-          <h3>Tools & writing</h3>
-          <p>LaTeX, Jupyter, technical reports and weekly research presentations</p>
-        </div>
-        <div>
-          <h3>Languages</h3>
-          <p>Vietnamese (native), English</p>
-        </div>
-      </div>
-    </section>
-
     <!-- ================= CONTACT ================= -->
     <section id="contact">
-      <h2><span class="num">06</span>Contact</h2>
-      <p style="margin-bottom:18px">I'm happy to talk about research, projects, or collaboration.</p>
+      <h2><span class="num">05</span>Contact</h2>
+      <p style="margin-bottom:18px">I'm happy to talk about mathematics, AI, or anything else.</p>
       <ul class="contact-list">
-        <!-- ✏️ EDIT: your real links -->
-        <li><span class="label">Email</span><a href="mailto:you@example.com">you@example.com</a></li>
+        <li><span class="label">Email</span><span><a href="mailto:minhnguyendanganh@gmail.com">minhnguyendanganh@gmail.com</a><br><a href="mailto:26minh.nda@vinuni.edu.vn">26minh.nda@vinuni.edu.vn</a></span></li>
         <li><span class="label">GitHub</span><a href="https://github.com/Jassw-cmd">github.com/Jassw-cmd</a></li>
-        <li><span class="label">LinkedIn</span><a href="https://www.linkedin.com/in/your-profile">linkedin.com/in/your-profile</a></li>
+        <li><span class="label">Instagram</span><a href="https://www.instagram.com/just.minmanh/">@just.minmanh</a></li>
       </ul>
     </section>
   </main>
 
   <footer>
     <div class="wrap">
-      <!-- ✏️ EDIT: your name -->
-      © <span id="year"></span> Your Name · Built with AI assistance (Claude) and hosted on GitHub Pages.
+      © <span id="year"></span> Nguyễn Đặng Anh Minh
     </div>
   </footer>
 
